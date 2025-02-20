@@ -8,16 +8,8 @@ public class Main {
         System.out.println("b is " + (b));
         System.out.println("a is " + (a++));
 
-        Shift(args);
+
     }
-
-    public static void Shift(String[] args) {
-            int a = 10;
-            int b = 6;
-
-            System.out.println("b is " + (b>>2));
-            System.out.println("a is " + (a<<5));
-        }
 }
 
 
