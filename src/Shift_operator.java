@@ -25,3 +25,36 @@ public class Shift_operator {
         }
 
 }
+/* CHATGPT WRITTEN:
+
+import java.util.Scanner;
+
+public class ShiftOperator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("\nEnter First Value: ");
+        int first = scanner.nextInt();
+
+        System.out.print("\nEnter Second Value: ");
+        int second = scanner.nextInt();
+
+        // Multiplication using left shift
+        System.out.println("\n***************  MULTIPLYING USING LEFT SHIFT  *****************");
+        for (int i = 0; i <= 3; i++) {
+            System.out.printf("\nMultiplying %d by %d  : %d", first, (1 << i), first << i);
+        }
+
+        // Division using right shift
+        System.out.println("\n\n***************  DIVIDING USING RIGHT SHIFT  *****************");
+        for (int i = 0; i <= 3; i++) {
+            int divisor = 1 << i;
+            System.out.printf("\nDividing %d by %d  : %d \t Remainder: %d", second, divisor, second >> i, second % divisor);
+        }
+
+        System.out.println(); // New line for better output readability
+        scanner.close(); // Close scanner to prevent memory leaks
+    }
+}
+
+ */

@@ -27,10 +27,39 @@ public class Ternary_operator
 
 
 
-
-
-
-
     }
-
 }
+/*CHATGPT WRITTEN
+
+import java.util.Scanner;
+
+public class TernaryOperator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("\nEnter First Number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter Second Number: ");
+        int num2 = scanner.nextInt();
+
+        // Finding max and min using ternary operator
+        int max = (num1 > num2) ? num1 : num2;
+        int min = (num1 < num2) ? num1 : num2;
+
+        System.out.printf("\nMaximum of (%d, %d) is: %d", num1, num2, max);
+        System.out.printf("\nMinimum of (%d, %d) is: %d\n", num1, num2, min);
+
+        System.out.print("\nEnter Third Number: ");
+        int num3 = scanner.nextInt();
+
+        // Finding the maximum of three numbers using nested ternary operators
+        max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+
+        System.out.printf("\nMaximum of (%d, %d, %d) is: %d\n", num1, num2, num3, max);
+
+        scanner.close(); // Closing scanner to prevent memory leaks
+    }
+}
+
+ */
