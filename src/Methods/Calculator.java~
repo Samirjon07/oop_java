@@ -4,9 +4,9 @@ public class Calculator {
     public static void main(String[] args) {
         int num1 = 1;
         int num2 = 0;
-        int num3 = 4;  // Determines the operation
+        int oper = 4; //orepation
 
-        switch (num3) {
+        switch (oper) {
             case 1:
                 int add = add(num1, num2);
                 System.out.printf("The addition of %d and %d is: %d%n", num1, num2, add);
