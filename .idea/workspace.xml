@@ -44,6 +44,7 @@
     "Application.Shift_operator.executor": "Run",
     "Application.Sum_of_number.executor": "Run",
     "Application.Ternary_operator.executor": "Run",
+    "Application.arrayname.executor": "Run",
     "Application.if_else.executor": "Run",
     "Application.jk.executor": "Run",
     "Application.nested_if_discount (1).executor": "Run",
@@ -63,7 +64,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Calculator_homework">
+  <component name="RunManager" selected="Application.arrayname">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Methods.Calculator" />
       <module name="OOP_1_Java_Siut" />
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum_of_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Conditionals.Sum_of_number" />
+    <configuration name="arrayname" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.arrayname" />
       <module name="OOP_1_Java_Siut" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Conditionals.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arrayname" />
         <item itemvalue="Application.Calculator_homework" />
         <item itemvalue="Application.nested_if_discount (1)" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.if_else" />
-        <item itemvalue="Application.Sum_of_number" />
       </list>
     </recent_temporary>
   </component>
