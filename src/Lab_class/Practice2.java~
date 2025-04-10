@@ -2,7 +2,7 @@ package Lab_class;
 
 public class Practice2 {
     public static void main(String[] args) {
-        int [][] numbers =new int [][]{{1,10,20,30},{2,20,400,12000}};
+        int [][] numbers =new int [][]{{1,10,20,30},{2,20,40,1200}};
         ihavedone(numbers);
     }
     static void ihavedone(int [][] numbers){
